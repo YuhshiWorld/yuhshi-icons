@@ -7,3 +7,4 @@
 5. UI icons are generated: edit `ui/tools/icons.py`, then run `python3 ui/tools/build.py ui` (from the repo root) and `python3 ui/tools/preview.py ui/svg ui/preview.svg` and commit the results. Never hand-edit `ui/svg/` or `ui/src/index.ts`.
 6. UI icons use `currentColor` only, the 24 px grid and 1.75 stroke. No popularity symbols (hearts, likes, crowns, trophies).
 7. After meaningful progress, append a dated entry to the build log's "Session updates".
+8. Living documents: when you add, change or remove a feature, data use, fee or safety tool, update every document it affects in the same pull request or the build log entry (Community Guidelines, Terms, Privacy Policy, safety risk assessment, pricing plan, names register, Master Blueprint). Note in the PR which documents changed, or "none affected".
