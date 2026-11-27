@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Yuhshi",
+    "icon": "./assets/brand/ios/yuhshi-ios-icon-light-1024.png",
+    "ios": {
+      "icon": {
+        "light": "./assets/brand/ios/yuhshi-ios-icon-light-1024.png",
+        "dark": "./assets/brand/ios/yuhshi-ios-icon-dark-1024.png",
+        "tinted": "./assets/brand/ios/yuhshi-ios-icon-tinted-1024.png"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/android/mipmap-xxxhdpi/yuhshi-android-foreground-light.png",
+        "monochromeImage": "./assets/brand/android/mipmap-xxxhdpi/yuhshi-android-monochrome-mono.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      ["expo-splash-screen", {
+        "image": "./assets/brand/splash/yuhshi-splash-icon-light-1024.png",
+        "imageWidth": 200,
+        "backgroundColor": "#FFFFFF",
+        "dark": { "image": "./assets/brand/splash/yuhshi-splash-icon-dark-1024.png", "backgroundColor": "#171923" }
+      }],
+      ["expo-notifications", { "icon": "./assets/brand/android/drawable-xxxhdpi/yuhshi-android-notification-mono.png", "color": "#5141D7" }]
+    ],
+    "web": { "favicon": "./assets/brand/web/yuhshi-favicon-light-48.png" }
+  }
+}
