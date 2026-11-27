@@ -1,0 +1,9 @@
+# yuhshi-icons — rules for every session
+
+1. Before starting, read `claude/build-log.md` in the YUHSHI project. Logo rules: Master Blueprint 16.15 and `claude/logo-files.md`.
+2. Work on a branch, never directly on `main`. Open a pull request; `main` only accepts changes whose CI checks pass.
+3. Before opening or merging a pull request, run `npm ci && npm run check`. It must pass.
+4. Logo and platform assets are generated from the master SVGs in `svg/`; never alter master shapes, colours or spacing without owner approval.
+5. UI icons are generated: edit `ui/tools/icons.py`, then run `python3 ui/tools/build.py ui` (from the repo root) and `python3 ui/tools/preview.py ui/svg ui/preview.svg` and commit the results. Never hand-edit `ui/svg/` or `ui/src/index.ts`.
+6. UI icons use `currentColor` only, the 24 px grid and 1.75 stroke. No popularity symbols (hearts, likes, crowns, trophies).
+7. After meaningful progress, append a dated entry to the build log's "Session updates".

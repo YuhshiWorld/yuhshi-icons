@@ -1,0 +1,17 @@
+{
+  "name": "yuhshi-icons",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Yuhshi brand assets and UI icons",
+  "scripts": {
+    "check:assets": "python3 scripts/check_assets.py",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "tsx src/brand.test.ts && tsx scripts/ui-icons.test.ts",
+    "check": "npm run check:assets && npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
